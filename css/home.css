@@ -18,24 +18,29 @@
     display: -webkit-flex;
     display: flex;
     align-items: center;
+    position: relative;
 }
 
 .home-pack .search-pack .search-label-pack {
     width: 70px;
     margin-left: 30px;
+    height: 80px;
+    line-height: 80px;
 }
 
 .home-pack .search-pack .search-label-pack .search-label {
     font-size: 16px;
     color: #6e6e6e;
+    height: 80px;
+    line-height: 80px;
 }
 
 .home-pack .search-pack .search-input-pack {
     position: absolute;
     left: 100px;
     right: 30px;
-    height: 30px;
-    height: 25px;
+    height: 80px;
+    line-height: 80px;
 }
 
 .home-pack .search-pack .search-input-pack .search-input {
@@ -68,7 +73,7 @@
     -moz-box-shadow: 0px 3px 10px #dcdcdc;
     -webkit-box-shadow: 0px 3px 10px #dcdcdc;
     box-shadow: 0px 3px 10px #dcdcdc;
-    padding: 0 30px;
+    padding: 15px 30px;
 }
 
 .home-pack .type-pack-pack .type-pack .type-city-pack {
@@ -101,7 +106,8 @@
 
 /* 医生列表 */
 .home-pack .doctor-list-pack {
-
+    overflow: auto;
+    height: auto;
 }
 
 .home-pack .doctor-list-pack .doctor-item {
