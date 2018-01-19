@@ -1,0 +1,226 @@
+
+/* banner图区域 */
+.home-pack .banner-pack {
+    height: auto;
+}
+
+.home-pack .banner-pack .banner {
+    width: 100%;
+    display: block;
+}
+
+/* 搜索区域 */
+.home-pack .search-pack {
+    width: 100%;
+    height: 80px;
+    background: #fff;
+    border-bottom: 1px solid #dfdfdf;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+}
+
+.home-pack .search-pack .search-label-pack {
+    width: 70px;
+    margin-left: 30px;
+}
+
+.home-pack .search-pack .search-label-pack .search-label {
+    font-size: 16px;
+    color: #6e6e6e;
+}
+
+.home-pack .search-pack .search-input-pack {
+    position: absolute;
+    left: 100px;
+    right: 30px;
+    height: 30px;
+    height: 25px;
+}
+
+.home-pack .search-pack .search-input-pack .search-input {
+    font-size: 16px;
+    color: #8E8E8E;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    border: 1px solid #aeaeae;
+    width: 100%;
+    height: 25px;
+    line-height: 25px;
+    padding: 3px 10px;
+}
+
+/* 分类区域 */
+.home-pack .type-pack-pack {
+    overflow: hidden;
+    height: 70px;
+}
+
+.home-pack .type-pack-pack .type-pack {
+    width: 100%;
+    height: 60px;
+    background: #fff;
+    border-bottom: 1px solid #dfdfdf;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    -moz-box-shadow: 0px 3px 10px #dcdcdc;
+    -webkit-box-shadow: 0px 3px 10px #dcdcdc;
+    box-shadow: 0px 3px 10px #dcdcdc;
+    padding: 0 30px;
+}
+
+.home-pack .type-pack-pack .type-pack .type-city-pack {
+    width: 75px;
+    height: 30px;
+    line-height: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+
+    color: #fff;
+    background: #cdcbcc;
+    text-align: center;
+    margin-right: 30px;
+}
+
+.home-pack .type-pack-pack .type-pack .type-department-pack {
+    width: 75px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 30px;
+    color: #fff;
+    background: #cdcbcc;
+    text-align: center;
+}
+
+.home-pack .type-pack-pack .type-pack .type-active {
+    background: #54a2e4;
+}
+
+/* 医生列表 */
+.home-pack .doctor-list-pack {
+
+}
+
+.home-pack .doctor-list-pack .doctor-item {
+    height: 110px;
+    margin: 5px 20px 10px 20px;
+    padding: 15px;
+    position: relative;
+
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+
+    -webkit-box-shadow: 0px 0px 6px #D9D9D9;
+    -moz-box-shadow: 0px 0px 6px #D9D9D9;
+    box-shadow: 0px 0px 6px #D9D9D9;
+
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+}
+
+.home-pack .doctor-list-pack .doctor-item .item-portrait-pack {
+    height: 84px;
+    width: 84px;
+}
+
+.home-pack .doctor-list-pack .doctor-item .item-portrait-pack img {
+    height: 84px;
+    width: 84px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.home-pack .doctor-list-pack .doctor-item .item-info {
+    position: absolute;
+    height: 84px;
+    left: 110px;
+    right: 15px;
+}
+
+.home-pack .doctor-list-pack .doctor-item .item-info .top-pack {
+    height: 30px;
+    display: -webkit-flex;
+    display: flex;
+    align-items: flex-end;
+}
+
+.home-pack .doctor-list-pack .doctor-item .item-info .top-pack .name{
+    font-size: 18px;
+    color: #8E8E8E;
+    margin-right: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow:    ellipsis;
+    display: inline-block;
+}
+
+.home-pack .doctor-list-pack .doctor-item .item-info .top-pack .type {
+    font-size: 12px;
+    color: #8E8E8E;
+    margin-right: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow:    ellipsis;
+    display: inline-block;
+}
+
+.home-pack .doctor-list-pack .doctor-item .item-info .top-pack .department {
+    font-size: 12px;
+    color: #8E8E8E;
+    margin-right: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow:    ellipsis;
+    display: inline-block;
+}
+
+.home-pack .doctor-list-pack .doctor-item .item-info .content-pack {
+    font-size: 12px;
+    color: #8E8E8E;
+    height: 30px;
+    line-height: 30px;
+
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home-pack .doctor-list-pack .doctor-item .item-info .content-pack .address{
+    white-space: nowrap;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow:    ellipsis;
+    display: inline-block;
+}
+
+.home-pack .doctor-list-pack .doctor-item .item-info .content-pack .arrows{
+    width: 16px;
+    height: 16px;
+}
+
+.home-pack .doctor-list-pack .doctor-item .item-info .bottom-pack {
+    font-size: 12px;
+    color: #93c3ed;
+    height: 24px;
+
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home-pack .doctor-list-pack .doctor-item .item-info .bottom-pack .major-item {
+    margin-right: 10px;
+}
+
+
