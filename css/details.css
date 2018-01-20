@@ -183,12 +183,12 @@
     margin-right: 10px;
 }
 
-.details-pack .bottom-pack {
+.details-pack .item-info .bottom-pack {
     position: absolute;
     bottom: 0;
 }
 
-.details-pack .bottom-pack input {
+.details-pack .item-info .bottom-pack input {
     background: #659cf1;
     color: #fff;
     padding-left: 30px;
@@ -258,4 +258,267 @@
     color: #8E8E8E;
     text-indent: 2em;
 }
+
+/* 蒙版区域 */
+.details-pack .masking {
+    display: none;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    buttom: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,0.2);
+    filter:progid:DXImageTransform.Microsoft.gradient(startcolorstr=#cccccc00,endcolorstr=#cccccc00);
+}
+
+/* 预约成功弹框区域 */
+.details-pack .make-ok-pack {
+    display: none;
+    width: 250px;
+    height: 200px;
+    background: #fff;
+    z-index: 3;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -moz-box-shadow:0px 0px 11px #999;
+    -webkit-box-shadow:0px 0px 11px #999;
+    box-shadow:0px 0px 11px #999;
+}
+
+.details-pack .make-ok-pack .top-pack {
+    height: 130px;
+    width: 130px;
+    background: #fff;
+    position: absolute;
+    top: -45px;
+    left: 59px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.details-pack .make-ok-pack .top-pack .make-ok-icon {
+    width: 70px;
+    height: 76px;
+    position: absolute;
+    left: 30px;
+    top: 20px;
+}
+
+.details-pack .make-ok-pack .content-pack {
+    position: absolute;
+    text-align: center;
+    top: 70px;
+    font-size: 14px;
+    margin: 0 20px;
+    color: #777;
+}
+
+.details-pack .make-ok-pack .content-pack .name {
+    color: #77B7ED;
+}
+
+.details-pack .make-ok-pack .bottom-pack {
+    position: absolute;
+    bottom: 20px;
+    left: 80px;
+    z-index: 4;
+}
+
+.details-pack .make-ok-pack .bottom-pack input {
+    background: #659cf1;
+    color: #fff;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 0px;
+}
+
+/* 登录弹框区域 */
+.details-pack .login-pack {
+    display: none;
+    width: 250px;
+    height: 260px;
+    background: #fff;
+    z-index: 3;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -moz-box-shadow:0px 0px 11px #999;
+    -webkit-box-shadow:0px 0px 11px #999;
+    box-shadow:0px 0px 11px #999;
+}
+
+.details-pack .login-pack .top-pack {
+    height: 130px;
+    width: 130px;
+    background: #fff;
+    position: absolute;
+    top: -45px;
+    left: 59px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.details-pack .login-pack .content-pack {
+    z-index: 4;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    font-size: 14px;
+    color: #777;
+    width: 250px;
+    margin-bottom: 20px;
+}
+
+.details-pack .login-pack .content-pack .title-pack {
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.details-pack .login-pack .content-pack .title-pack .company-name {
+    color: #77B7ED;
+}
+
+.details-pack .login-pack .content-pack .form-pack {
+
+}
+
+.details-pack .login-pack .content-pack .username-pack {
+    width: 250px;
+    height: 44px;
+    padding: 0 10px;
+    border-bottom: 1px solid #dfdfdf;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+}
+
+.details-pack .login-pack .content-pack .username-pack .icon-pack {
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+}
+
+.details-pack .login-pack .content-pack .username-pack .icon-pack img {
+    width: 16px;
+    height: 16px;
+}
+
+.details-pack .login-pack .content-pack .username-pack .input-pack {
+    width: 224px;
+    height: 20px;
+}
+
+.details-pack .login-pack .content-pack .username-pack .input-pack input {
+    width: 204px;
+    height: 20px;
+    line-height: 20px;
+    margin: 0;
+    padding: 0;
+    border: 0px;
+    color: #999;
+    font-size: 14px;
+}
+
+.details-pack .login-pack .content-pack .password-pack {
+    width: 250px;
+    height: 44px;
+    padding: 0 10px;
+    border-bottom: 1px solid #dfdfdf;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+}
+
+.details-pack .login-pack .content-pack .password-pack .icon-pack {
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+}
+
+.details-pack .login-pack .content-pack .password-pack .icon-pack img {
+    width: 16px;
+    height: 16px;
+}
+
+.details-pack .login-pack .content-pack .password-pack .input-pack {
+    width: 224px;
+    height: 20px;
+}
+
+.details-pack .login-pack .content-pack .password-pack .input-pack input {
+    width: 204px;
+    height: 20px;
+    line-height: 20px;
+    margin: 0;
+    padding: 0;
+    border: 0px;
+    color: #999;
+    font-size: 14px;
+}
+
+.details-pack .login-pack .content-pack .password-pack .input-pack .password-open {
+    display: none;
+}
+
+.details-pack .login-pack .content-pack .btn-pack {
+    position: absolute;
+    right: 10px;
+    height: 16px;
+}
+
+.details-pack .login-pack .content-pack .btn-pack img {
+    width: 16px;
+    height: 16px;
+}
+
+.details-pack .login-pack .content-pack .btn-pack .btn-open {
+    display: none;
+}
+
+.details-pack .login-pack .tip-pack {
+    font-size: 12px;
+    color: #fc6074;
+    margin: 3px 10px;
+    text-align: left;
+}
+
+.details-pack .login-pack .bottom-pack {
+    height: 35px;
+    line-height: 35px;
+    width: 242px;
+    position: absolute;
+    bottom: 2px;
+    padding: 0 2px 2px 2px;
+}
+
+.details-pack .login-pack .bottom-pack input {
+    width: 246px;
+    height: 35px;
+    line-height: 35px;
+    background: #659cf1;
+    color: #fff;
+    border: 0px;
+    padding: 0;
+}
+
+
+
 

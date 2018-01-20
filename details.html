@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="">
 	<head>
-		<title>医师子页</title>
+		<title>医师详情</title>
 		<meta charset="utf-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="description" content="" />
@@ -52,7 +52,7 @@
 				</div>
 				<div class="bottom-pack">
 					<div class="make-pack">
-						<input type="button" value="预约该医师" />
+						<input id="makeBtn" type="button" value="预约该医师" />
 					</div>
 				</div>
 			</div>
@@ -83,6 +83,67 @@
 				<p>不大金山毒不大金山毒霸计划表不大金山毒霸计划表不大金山毒霸计划表不大金山毒霸计划表不大金山毒霸计划表霸计划表</p>
 				<p>不大金山毒不大金山毒霸计划表不大金山毒霸计划表不大金山毒霸计划表不大金山毒霸计划表不大金山毒霸计划表霸计划表</p>
 				<p>不大金山毒不大金山毒霸计划表不大金山毒霸计划表不大金山毒霸计划表不大金山毒霸计划表不大金山毒霸计划表霸计划表</p>
+			</div>
+		</div>
+
+		<!-- 蒙版 -->
+		<div class="masking"></div>
+
+		<!-- 登录弹框 -->
+		<div class="login-pack">
+			<div class="top-pack"></div>
+			<div class="content-pack">
+				<div class="title-pack">
+					<div><span>您还未登录</span><span class="company-name">大步医疗</span></div>
+					<div>请再次登录您的客户账号</div>
+				</div>
+				<div class="form-pack">
+					<div class="username-pack">
+						<div class="icon-pack">
+							<img src="i/user.png" />
+						</div>
+						<div class="input-pack">
+							<input type="text" placeholder="登录账号" />
+						</div>
+					</div>
+					<div class="password-pack">
+						<div class="icon-pack">
+							<img src="i/password.png" />
+						</div>
+						<div class="input-pack">
+							<input id="ciphertextPassword" class="password-close" type="password" placeholder="密码" />
+							<input id="proclaimedPassword" class="password-open" type="text" placeholder="密码" />
+						</div>
+						<div class="btn-pack">
+							<img id="openPasswordBtn" class="btn-close" src="i/eyes-close.png" />
+							<img id="closePasswordBtn" class="btn-open" src="i/eyes-open.png" />
+						</div>
+					</div>
+				</div>
+				<div class="tip-pack">
+					*新用户点此注册账号
+				</div>
+			</div>
+			<div class="bottom-pack">
+				<input id="loginBtn" type="button" value="登录" />
+			</div>
+		</div>
+
+		<!-- 预约成功弹框 -->
+		<div class="make-ok-pack">
+			<div class="top-pack">
+				<img class="make-ok-icon" src="i/reservations.png" />
+			</div>
+			<div class="content-pack">
+				<div>恭喜成功预约</div>
+				<div>
+					<span>心肺科</span>
+					<span class="name">张文磊</span>
+					<span>医生请静候工作人员联系</span>
+				</div>
+			</div>
+			<div class="bottom-pack">
+				<input id="closeMakeOk" type="button" value="确定" />
 			</div>
 		</div>
 		<!-- 通用类库 -->
