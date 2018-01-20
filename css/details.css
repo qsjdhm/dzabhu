@@ -1,0 +1,261 @@
+
+/* 返回条区域 */
+.details-pack .back-pack {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    background: #659cf1;
+    color: #fff;
+    padding: 13px 15px;
+
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.details-pack .back-pack .back-icon-pack {
+    height: 22px;
+    line-height: 22px;
+    position: absolute;
+    left: 15px;
+    z-index: 1;
+}
+
+.details-pack .back-pack .back-icon-pack .back-icon {
+    height: 22px;
+    line-height: 22px;
+}
+
+.details-pack .back-pack .back-title-pack {
+    height: 22px;
+    line-height: 22px;
+}
+
+.details-pack .back-pack .back-title-pack span {
+    height: 22px;
+    line-height: 22px;
+    font-size: 18px;
+}
+
+.details-pack .back-pack .back-btn-pack {
+    height: 22px;
+    line-height: 22px;
+    position: absolute;
+    right: 15px;
+    z-index: 1;
+}
+
+.details-pack .back-pack .back-btn-pack .back-btn {
+    margin-left: 10px;
+    height: 22px;
+    line-height: 22px;
+}
+
+/* 医师信息区域 */
+.details-pack .info-pack {
+    margin: 30px 20px;
+    position: relative;
+
+    display: -webkit-flex;
+    display: flex;
+    /*align-items: center;*/
+}
+
+.details-pack .info-pack .item-portrait-pack {
+    height: 159px;
+    width: 122px;
+}
+
+.details-pack .info-pack .item-portrait-pack img {
+    height: 159px;
+    width: 122px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+
+    -webkit-box-shadow: 0px 0px 6px #D9D9D9;
+    -moz-box-shadow: 0px 0px 6px #D9D9D9;
+    box-shadow: 0px 0px 6px #D9D9D9;
+}
+
+.details-pack .info-pack .item-info {
+    position: absolute;
+    left: 135px;
+    right: 0;
+    height: 159px;
+}
+
+.details-pack .info-pack .item-info .base-pack {
+    height: 30px;
+    line-height: 30px;
+    display: -webkit-flex;
+    display: flex;
+}
+
+.details-pack .info-pack .item-info .base-pack .name {
+    font-size: 18px;
+    color: #8E8E8E;
+    margin-right: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow:    ellipsis;
+    display: inline-block;
+}
+
+.details-pack .info-pack .item-info .base-pack .type {
+    font-size: 12px;
+    color: #8E8E8E;
+    margin-right: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow:    ellipsis;
+    display: inline-block;
+}
+
+.details-pack .info-pack .item-info .base-pack .department {
+    font-size: 12px;
+    color: #8E8E8E;
+    margin-right: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow:    ellipsis;
+    display: inline-block;
+}
+
+.details-pack .info-pack .item-info .address-pack {
+    font-size: 12px;
+    color: #8E8E8E;
+    height: 25px;
+    line-height: 25px;
+
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.details-pack .info-pack .item-info .address-pack .address{
+    white-space: nowrap;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow:    ellipsis;
+    display: inline-block;
+}
+
+.details-pack .info-pack .item-info .address-pack .arrows{
+    width: 16px;
+    height: 16px;
+}
+
+
+.details-pack .info-pack .item-info .phone-pack {
+    font-size: 12px;
+    color: #8E8E8E;
+    height: 25px;
+    line-height: 25px;
+
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.details-pack .info-pack .item-info .phone-pack .address{
+    white-space: nowrap;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow:    ellipsis;
+    display: inline-block;
+}
+
+.details-pack .info-pack .item-info .major-pack {
+    font-size: 12px;
+    color: #77B7ED;
+    height: 25px;
+    line-height: 25px;
+}
+
+.details-pack .info-pack .item-info .major-pack .major-item {
+    margin-right: 10px;
+}
+
+.details-pack .bottom-pack {
+    position: absolute;
+    bottom: 0;
+}
+
+.details-pack .bottom-pack input {
+    background: #659cf1;
+    color: #fff;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 0px;
+}
+
+/* 信誉区域 */
+.details-pack .reputation-pack {
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 30px 30px 30px;
+}
+
+.details-pack .reputation-pack .consult-pack .consult-number-pack {
+    color: #77B7ED;
+    font-size: 24px;
+    height: 24px;
+    line-height: 24px;
+    text-align: left;
+}
+
+.details-pack .reputation-pack .consult-pack .consult-label-pack {
+    color: #666;
+    font-size: 14px;
+    text-align: left;
+}
+
+.details-pack .reputation-pack .grade-pack {
+    display: -webkit-flex;
+    display: flex;
+    align-items: flex-end;
+    height: 45px;
+}
+
+.details-pack .reputation-pack .grade-pack .grade-label-pack {
+    color: #666;
+    font-size: 16px;
+}
+
+.details-pack .reputation-pack .grade-pack .grade-value-pack .grade-value {
+    width: 16px;
+    height: 16px;
+    position: relative;
+    top: 2px;
+}
+
+.details-pack .intro-pack {
+    border-top: 2px solid #eee;
+    margin: 30px 30px 0 30px;
+    padding: 30px 0;
+}
+
+.details-pack .intro-pack .intro-label-pack {
+    color: #77B7ED;
+    font-size: 20px;
+}
+
+.details-pack .intro-pack .intro-value-pack {
+    margin: 20px 0;
+}
+
+.details-pack .intro-pack .intro-value-pack p {
+    font-size: 12px;
+    color: #8E8E8E;
+    text-indent: 2em;
+}
+
