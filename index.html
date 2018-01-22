@@ -10,6 +10,8 @@
 		<meta http-equiv="Cache-Control" content="no-siteapp" />
 		<meta name="format-detection" content="telephone=no" />
 		<link rel="stylesheet" href="js/mui/css/mui.min.css" />
+		<link rel="stylesheet" href="js/mui/css/mui.picker.css" />
+		<link rel="stylesheet" href="js/mui/css/mui.poppicker.css" />
 		<link rel="stylesheet" href="css/base.css" />
 		<link rel="stylesheet" href="css/home.css" />
 	</head>
@@ -23,21 +25,26 @@
 			</div>
 			<div class="search-input-pack">
 				<input type="text" class="search-input" />
+				<div>
+					<img id="searchBtn" src="i/search.png" />
+				</div>
 			</div>
 		</div>
 		<div class="type-pack-pack">
 			<div class="type-pack">
-				<div class="type-city-pack">
+				<div id="showCityPicker" class="type-city-pack">
 					<span class="type-city">城市</span>
+					<div id="cityResult" class="ui-alert"></div>
 				</div>
-				<div class="type-department-pack">
+				<div id="showDepartmentPicker" class="type-department-pack">
 					<span class="type-department">科室</span>
+					<div id="departmentResult" class="ui-alert"></div>
 				</div>
 			</div>
 		</div>
 		<div class="doctor-list-pack">
 			<div class="doctor-list">
-				<div class="doctor-item">
+				<!--<div class="doctor-item">
 					<div class="item-portrait-pack">
 						<img class="item-portrait" src="i/portrait.png" />
 					</div>
@@ -48,7 +55,7 @@
 							<span class="department">呼吸内科</span>
 						</div>
 						<div class="content-pack">
-							<span class="address">博兴县中医院（博兴县城郊医院）博兴县中医院</span>
+							<span class="address">博兴县中医院（博兴县城郊医院）</span>
 							<img class="arrows" src="i/arrows-right.png" />
 						</div>
 						<div class="bottom-pack">
@@ -58,30 +65,7 @@
 							</span>
 						</div>
 					</div>
-				</div>
-				<div class="doctor-item">
-					<div class="item-portrait-pack">
-						<img class="item-portrait" src="i/portrait.png" />
-					</div>
-					<div class="item-info">
-						<div class="top-pack">
-							<span class="name">张文磊</span>
-							<span class="type">住院医师</span>
-							<span class="department">呼吸内科</span>
-						</div>
-						<div class="content-pack">
-							<span class="address">博兴县中医院（博兴县城郊医院）博兴县中医院</span>
-							<img class="arrows" src="i/arrows-right.png" />
-						</div>
-						<div class="bottom-pack">
-							<span class="major-pack">负责专业：
-								<span class="major-item">肺炎</span>
-								<span class="major-item">哮喘</span>
-							</span>
-						</div>
-					</div>
-				</div>
-
+				</div>-->
 			</div>
 		</div>
 
@@ -90,6 +74,10 @@
 		<script src="js/zepto/zepto.touch.js"></script>
 		<script src="js/fastclick/fastclick.js"></script>
 		<script src="js/mui/js/mui.min.js"></script>
+		<script src="js/mui/js/mui.picker.js"></script>
+		<script src="js/mui/js/mui.poppicker.js"></script>
+		<script src="js/mui/js/city.data.js"></script>
+		<script src="js/mui/js/city.data-3.js"></script>
 
 		<!-- 功能类 -->
 		<script src="js/homeIndex.js"></script>

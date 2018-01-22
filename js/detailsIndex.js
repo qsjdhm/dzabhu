@@ -1,6 +1,11 @@
 
 
 $(function () {
+    // 返回按钮点击
+    $(".back-icon-pack").click(function() {
+        window.location.href = "index.html";
+    });
+
 	// 预约医生按钮点击
 	$("#makeBtn").click(function() {
         $(".masking").show();
