@@ -404,7 +404,7 @@
     width: 250px;
     height: 44px;
     padding: 0 10px;
-    border-bottom: 1px solid #dfdfdf;
+    border-bottom: 1px solid #F2F1F1;
     display: -webkit-flex;
     display: flex;
     align-items: center;
@@ -441,7 +441,7 @@
     width: 250px;
     height: 44px;
     padding: 0 10px;
-    border-bottom: 1px solid #dfdfdf;
+    border-bottom: 1px solid #F2F1F1;
     display: -webkit-flex;
     display: flex;
     align-items: center;
@@ -481,7 +481,8 @@
 .details-pack .login-pack .content-pack .btn-pack {
     position: absolute;
     right: 10px;
-    height: 16px;
+    height: 44px;
+    line-height: 54px;
 }
 
 .details-pack .login-pack .content-pack .btn-pack img {
@@ -519,6 +520,156 @@
     padding: 0;
 }
 
+/* 注册区域 */
+.details-pack .register-pack {
+    display: none;
+    width: 250px;
+    height: 260px;
+    background: #fff;
+    z-index: 3;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -moz-box-shadow:0px 0px 11px #999;
+    -webkit-box-shadow:0px 0px 11px #999;
+    box-shadow:0px 0px 11px #999;
+}
+
+.details-pack .register-pack .top-pack {
+    height: 130px;
+    width: 130px;
+    background: #fff;
+    position: absolute;
+    top: -45px;
+    left: 59px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.details-pack .register-pack .content-pack {
+    z-index: 4;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    font-size: 14px;
+    color: #777;
+    width: 250px;
+    margin-bottom: 20px;
+}
+
+.details-pack .register-pack .content-pack .title-pack {
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+.details-pack .register-pack .content-pack .title-pack .company-name {
+    color: #77B7ED;
+}
+
+.details-pack .register-pack .content-pack .form-pack {
+
+}
+
+.details-pack .register-pack .content-pack .username-pack {
+    width: 250px;
+    height: 44px;
+    padding: 0 10px;
+    border-bottom: 1px solid #F2F1F1;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+}
+
+.details-pack .register-pack .content-pack .username-pack .icon-pack {
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+}
+
+.details-pack .register-pack .content-pack .username-pack .icon-pack img {
+    width: 16px;
+    height: 16px;
+}
+
+.details-pack .register-pack .content-pack .username-pack .input-pack {
+    width: 224px;
+    height: 20px;
+}
+
+.details-pack .register-pack .content-pack .username-pack .input-pack input {
+    width: 204px;
+    height: 20px;
+    line-height: 20px;
+    margin: 0;
+    padding: 0;
+    border: 0px;
+    color: #999;
+    font-size: 14px;
+}
+
+.details-pack .register-pack .content-pack .password-pack {
+    width: 250px;
+    height: 44px;
+    padding: 0 10px;
+    border-bottom: 1px solid #F2F1F1;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+}
+
+.details-pack .register-pack .content-pack .password-pack .icon-pack {
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+}
+
+.details-pack .register-pack .content-pack .password-pack .icon-pack img {
+    width: 16px;
+    height: 16px;
+}
+
+.details-pack .register-pack .content-pack .password-pack .input-pack {
+    width: 224px;
+    height: 20px;
+}
+
+.details-pack .register-pack .content-pack .password-pack .input-pack input {
+    width: 204px;
+    height: 20px;
+    line-height: 20px;
+    margin: 0;
+    padding: 0;
+    border: 0px;
+    color: #999;
+    font-size: 14px;
+}
+
+.details-pack .register-pack .bottom-pack {
+    height: 35px;
+    line-height: 35px;
+    width: 242px;
+    position: absolute;
+    bottom: 2px;
+    padding: 0 2px 2px 2px;
+}
+
+.details-pack .register-pack .bottom-pack input {
+    width: 246px;
+    height: 35px;
+    line-height: 35px;
+    background: #659cf1;
+    color: #fff;
+    border: 0px;
+    padding: 0;
+}
 
 
 

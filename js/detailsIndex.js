@@ -3,9 +3,18 @@
 $(function () {
 	// 预约医生按钮点击
 	$("#makeBtn").click(function() {
-		$(".masking").show();
-		$(".login-pack").show();
+        $(".masking").show();
+        $(".register-pack").show();
 	});
+
+    // 注册弹框登录按钮点击
+    $("#registerBtn").click(function() {
+        $(".masking").hide();
+        $(".register-pack").hide();
+
+        $(".masking").show();
+        $(".login-pack").show();
+    });
 
 	// 登录弹框登录按钮点击
 	$("#loginBtn").click(function() {
