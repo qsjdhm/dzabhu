@@ -22,7 +22,7 @@
 				<span>医师详情</span>
 			</div>
 			<div class="back-btn-pack">
-				<img class="back-btn" src="i/phone.png" />
+				<img id="phoneBtn" class="back-btn" src="i/phone.png" />
 				<img class="back-btn" src="i/message.png" />
 			</div>
 		</div>
@@ -33,21 +33,18 @@
 			<div class="item-info">
 				<div class="top-pack">
 					<div class="base-pack">
-						<span class="name">张文磊</span>
-						<span class="type">住院医师</span>
-						<span class="department">呼吸内科</span>
+						<span id="detailsName" class="name"></span>
+						<span id="detailsType" class="type"></span>
+						<span id="detailsDepartment" class="department"></span>
 					</div>
 					<div class="address-pack">
-						<span class="address">博兴县中医院（博兴县城郊医院）博兴县中医院</span>
+						<span id="detailsAddress" class="address"></span>
 					</div>
 					<div class="phone-pack">
-						<span class="phone">联系方式：13855699632</span>
+						<span id="detailsPhone" class="phone"></span>
 					</div>
 					<div class="major-pack">
-						<span class="major-list-pack">负责专业：
-							<span class="major-item">肺炎</span>
-							<span class="major-item">哮喘</span>
-						</span>
+						<span id="detailsMajor" class="major-list-pack"></span>
 					</div>
 				</div>
 				<div class="bottom-pack">
@@ -79,10 +76,7 @@
 			<div class="intro-label-pack">
 				医师简介：
 			</div>
-			<div class="intro-value-pack">
-				<p>不大金山毒不大金山毒霸计划表不大金山毒霸计划表不大金山毒霸计划表不大金山毒霸计划表不大金山毒霸计划表霸计划表</p>
-				<p>不大金山毒不大金山毒霸计划表不大金山毒霸计划表不大金山毒霸计划表不大金山毒霸计划表不大金山毒霸计划表霸计划表</p>
-				<p>不大金山毒不大金山毒霸计划表不大金山毒霸计划表不大金山毒霸计划表不大金山毒霸计划表不大金山毒霸计划表霸计划表</p>
+			<div id="detailsDesc" class="intro-value-pack">
 			</div>
 		</div>
 
@@ -175,8 +169,8 @@
 			<div class="content-pack">
 				<div>恭喜成功预约</div>
 				<div>
-					<span>心肺科</span>
-					<span class="name">张文磊</span>
+					<span id="makeDepartment"></span>
+					<span id="makeName" class="name"></span>
 					<span>医生请静候工作人员联系</span>
 				</div>
 			</div>
